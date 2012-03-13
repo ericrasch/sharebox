@@ -1,9 +1,14 @@
+<?php 
+    // Customize the variables here
+    $twitter_username = 'Twitter Username'; 
+?>
+
 <!-- AddThis Button BEGIN -->
 <div class="addthis_toolbox addthis_default_style ">
 
 <div class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
 
-<div class="addthis_twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="<?php return TWITTER_USERNAME; ?>" data-related="<?php return TWITTER_USERNAME; ?>" data-count="horizontal">Tweet</a></div>
+<div class="addthis_twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="<?php echo TWITTER_USERNAME; ?>" data-related="<?php echo TWITTER_USERNAME; ?>" data-count="horizontal">Tweet</a></div>
 
 <div class="g-plusone" data-size="medium" data-href="<?php the_permalink(); ?>"></div>
 
